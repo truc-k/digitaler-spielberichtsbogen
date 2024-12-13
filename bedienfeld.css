@@ -1,0 +1,35 @@
+.team-a {
+    float: left;
+}
+
+.team-b {
+    float: right;
+}
+
+.team-a-spieler,
+.team-b-spieler {
+    border: solid 2px black;
+    width: 40px;
+    height: 40px;
+    margin: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-a-kopf, .team-b-kopf {
+    border: solid 2px black;
+    width: 100px;
+    height: 100px;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontrollfeld {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
