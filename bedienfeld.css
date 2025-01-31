@@ -2,8 +2,12 @@
     float: left;
 }
 
+.kontrollfeld {
+    float: left;
+}
+
 .team-b {
-    float: right;
+    float: left;
 }
 
 .team-a-spieler,
@@ -18,17 +22,12 @@
     align-items: center;
 }
 
-.team-a-kopf, .team-b-kopf {
+.team-a-kopf,
+.team-b-kopf {
     border: solid 2px black;
     width: 100px;
     height: 100px;
 
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-
-.kontrollfeld {
     display: grid;
     justify-content: center;
     align-items: center;
